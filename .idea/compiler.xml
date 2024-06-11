@@ -2,17 +2,25 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="yixiao-blog" />
+        <module name="internal-common" />
+        <module name="system" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="untitled" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="yixiao-blog" options="-parameters" />
+      <module name="internal-common" options="-parameters" />
+      <module name="system" options="-parameters" />
+      <module name="untitled" options="-parameters" />
+      <module name="yixiao-blog-service" options="" />
     </option>
   </component>
 </project>

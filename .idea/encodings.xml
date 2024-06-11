@@ -2,5 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yixiao-blog-service/internal-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yixiao-blog-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yixiao-blog-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yixiao-blog-service/system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yixiao-blog-service/untitled/src/main/java" charset="UTF-8" />
   </component>
 </project>
