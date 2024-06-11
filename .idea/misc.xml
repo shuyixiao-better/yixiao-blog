@@ -9,15 +9,9 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/system/pom.xml" />
         <option value="$PROJECT_DIR$/yixiao-blog-service/pom.xml" />
         <option value="$PROJECT_DIR$/yixiao-blog-service/system/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/yixiao-blog-service/untitled/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="21" project-jdk-type="JavaSDK">
