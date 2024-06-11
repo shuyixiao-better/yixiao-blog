@@ -4,21 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e55cf2c6-e6a6-4ce3-a676-2f8a0a3a27dc" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e55cf2c6-e6a6-4ce3-a676-2f8a0a3a27dc" name="更改" comment=":bookmark: 完善模块版本信息">
+      <change afterPath="$PROJECT_DIR$/yixiao-blog-service/internal-common/src/main/java/com/shuyixiao/constant/IdentityConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yixiao-blog-service/internal-common/src/main/java/com/shuyixiao/constant/TokenConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yixiao-blog-service/internal-common/src/main/java/com/shuyixiao/dto/TokenResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yixiao-blog-service/internal-common/src/main/java/com/shuyixiao/responese/TokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yixiao-blog-service/internal-common/src/main/java/com/shuyixiao/util/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yixiao-blog-service/internal-common/src/main/java/com/shuyixiao/util/RedisPrefixUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yixiao-blog-service/system/src/main/java/com/shuyixiao/system/controller/VerificationCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yixiao-blog-service/system/src/main/java/com/shuyixiao/system/service/VerificationCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yixiao-blog-service/system/src/main/java/com/shuyixiao/system/service/impl/VerificationCodeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yixiao-blog-service/internal-common/target/classes/com/shuyixiao/constant/CommonStatusEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yixiao-blog-service/internal-common/target/classes/com/shuyixiao/dto/ResponseResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yixiao-blog-service/system/src/main/java/com/shuyixiao/system/service/ApiDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/yixiao-blog-service/system/src/main/java/com/shuyixiao/system/service/ApiDataService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yixiao-blog-service/system/src/main/java/com/shuyixiao/system/utils/CustomHttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/yixiao-blog-service/system/src/main/java/com/shuyixiao/system/utils/CustomHttpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yixiao-blog-service/system/target/classes/com/shuyixiao/system/SystemApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yixiao-blog-service/system/target/classes/com/shuyixiao/system/config/WebConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yixiao-blog-service/system/target/classes/com/shuyixiao/system/controller/ApiDataController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yixiao-blog-service/system/target/classes/com/shuyixiao/system/service/ApiDataService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yixiao-blog-service/system/target/classes/com/shuyixiao/system/service/impl/ApiDataServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yixiao-blog-service/system/target/classes/com/shuyixiao/system/utils/CustomHttpUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yixiao-blog-service/system/target/test-classes/com/shuyixiao/system/SystemApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yixiao-blog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yixiao-blog-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yixiao-blog-service/system/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yixiao-blog-service/system/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yixiao-blog-service/system/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yixiao-blog-service/system/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +32,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -81,13 +82,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.SystemApplication.executor": "Debug",
+    "Maven.system [clean].executor": "Run",
+    "Maven.system [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.SystemApplication.executor": "Debug",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/AWork",
+    "last_opened_file_path": "E:/飞滴出行网约车项目/online-taxi-2022-public/online-taxi-public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -100,6 +107,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\AWork\博客项目\yixiao-blog\yixiao-blog-service" />
@@ -156,11 +166,24 @@
       <option name="presentableId" value="Default" />
       <updated>1696653192242</updated>
       <workItem from="1718083748441" duration="1902000" />
-      <workItem from="1718102295119" duration="1361000" />
+      <workItem from="1718102295119" duration="9205000" />
     </task>
+    <task id="LOCAL-00001" summary=":bookmark: 完善模块版本信息">
+      <option name="closed" value="true" />
+      <created>1718103967008</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718103967008</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=":bookmark: 完善模块版本信息" />
+    <option name="LAST_COMMIT_MESSAGE" value=":bookmark: 完善模块版本信息" />
   </component>
 </project>
