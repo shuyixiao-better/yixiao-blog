@@ -24,7 +24,7 @@ public class VerificationCodeController {
     @Autowired
     VerificationCodeService verificationCodeService;
 
-    @GetMapping("/verificationCodeCheck")
+    @GetMapping("/getVerificationCode")
     public ResponseResult getVerificationCode(HttpServletRequest request){
         String remoteAddr = request.getRemoteAddr();
         String serviceIP = "127.0.0.1";
