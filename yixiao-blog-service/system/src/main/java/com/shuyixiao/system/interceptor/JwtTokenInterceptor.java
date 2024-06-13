@@ -36,6 +36,10 @@ public class JwtTokenInterceptor implements HandlerInterceptor {
         String resultString = "";
 
         String token = request.getHeader("Authorization");
+        if (token != null && token.startsWith("Bearer ")) {
+            // 移除 "Bearer " 前缀并获取实际的 JWT
+            token = token.substring("Bearer ".length());
+        }
 
         // 解析token
         TokenResult tokenResult = JwtUtils.parseToken(token);
@@ -52,7 +56,7 @@ public class JwtTokenInterceptor implements HandlerInterceptor {
 
             // 从redis中获取token
             String tokenRedis = stringRedisTemplate.opsForValue().get(tokenKey);
-            if ((StringUtils.isBlank(tokenRedis)) || !token.trim().equals(tokenKey)){
+            if ((StringUtils.isBlank(tokenRedis)) || !token.trim().equals(tokenRedis)){
                 result = false;
                 resultString = "access token invalid";
             }
