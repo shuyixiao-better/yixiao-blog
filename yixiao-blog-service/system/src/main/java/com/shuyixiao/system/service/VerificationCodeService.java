@@ -12,4 +12,6 @@ import com.shuyixiao.dto.ResponseResult;
 public interface VerificationCodeService {
 
     ResponseResult getVerificationCode(String serviceIP);
+
+    ResponseResult refreshToken(String refreshTokenSrc);
 }

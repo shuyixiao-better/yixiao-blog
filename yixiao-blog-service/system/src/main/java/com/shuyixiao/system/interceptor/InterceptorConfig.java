@@ -27,6 +27,7 @@ public class InterceptorConfig implements WebMvcConfigurer {
                 .addPathPatterns("/**")
                 // 不拦截的路径
                 .excludePathPatterns("/shuyixiao/v1/getVerificationCode")
+                .excludePathPatterns("/shuyixiao/v1/refreshToken")
         ;
     }
 }

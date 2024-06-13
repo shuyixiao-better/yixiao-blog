@@ -1,13 +1,12 @@
 package com.shuyixiao.system.controller;
 
 import com.shuyixiao.dto.ResponseResult;
+import com.shuyixiao.responese.TokenResponse;
 import com.shuyixiao.system.service.VerificationCodeService;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * ClassName VerificationCodeController.java
@@ -35,4 +34,16 @@ public class VerificationCodeController {
         }
         return ResponseResult.fail("");
     }
+
+    @PostMapping("/refreshToken")
+    public ResponseResult refreshToken(@RequestBody TokenResponse tokenResponse){
+
+        String refreshTokenSrc = tokenResponse.getRefreshToken();
+        System.out.println("原来的 refreshToken："+refreshTokenSrc);
+
+        return verificationCodeService.refreshToken(refreshTokenSrc);
+
+    }
+
+
 }
