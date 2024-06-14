@@ -27,9 +27,9 @@ public class VerificationCodeController {
     public ResponseResult getVerificationCode(HttpServletRequest request){
         String remoteAddr = request.getRemoteAddr();
         String serviceIP = "127.0.0.1";
-        String ipv4Loopback = "127.0.0.1";
-        String ipv6Loopback = "0:0:0:0:0:0:0:1";
-        if (remoteAddr.equals(ipv4Loopback) || remoteAddr.equals(ipv6Loopback)){
+        String ipv4LoopBack = "127.0.0.1";
+        String ipv6LoopBack = "0:0:0:0:0:0:0:1";
+        if (remoteAddr.equals(ipv4LoopBack) || remoteAddr.equals(ipv6LoopBack)){
             return verificationCodeService.getVerificationCode(serviceIP);
         }
         return ResponseResult.fail("");
