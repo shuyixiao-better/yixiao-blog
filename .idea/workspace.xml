@@ -5,6 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e55cf2c6-e6a6-4ce3-a676-2f8a0a3a27dc" name="更改" comment=":sparkles: 添加token刷新功能">
+      <change afterPath="$PROJECT_DIR$/yixiao-blog-service/internal-common/src/main/java/com/shuyixiao/dto/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yixiao-blog-service/system/src/main/java/com/shuyixiao/system/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yixiao-blog-service/system/src/main/java/com/shuyixiao/system/mapper/ArticleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yixiao-blog-service/system/src/main/java/com/shuyixiao/system/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yixiao-blog-service/system/src/main/java/com/shuyixiao/system/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yixiao-blog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yixiao-blog-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yixiao-blog-service/system/src/main/java/com/shuyixiao/system/SystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/yixiao-blog-service/system/src/main/java/com/shuyixiao/system/SystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yixiao-blog-service/system/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yixiao-blog-service/system/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yixiao-blog-service/system/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yixiao-blog-service/system/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yixiao-blog-service/system/target/classes/com/shuyixiao/system/SystemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/yixiao-blog-service/system/target/classes/com/shuyixiao/system/SystemApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yixiao-blog-service/system/target/classes/com/shuyixiao/system/controller/VerificationCodeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/yixiao-blog-service/system/target/classes/com/shuyixiao/system/controller/VerificationCodeController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +31,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -131,11 +142,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.SystemApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
